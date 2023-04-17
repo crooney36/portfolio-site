@@ -1,1 +1,1 @@
-# Simple boilerplate code for a React + Vite app with Tailwind and DaisyUI configured.
+Personal portfolio site using React, Vite, TailwindCSS & DaisyUI
