@@ -1,1 +1,3 @@
-Personal portfolio site using React, Vite, TailwindCSS & DaisyUI
+Personal portfolio site showcasing my skills, experience and projects. 
+
+Built using React, Vite, TailwindCSS & DaisyUI.
