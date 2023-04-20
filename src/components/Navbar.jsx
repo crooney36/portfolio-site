@@ -31,10 +31,13 @@ export default function Navbar() {
       >
         <ul className="menu menu-horizontal px-1 navbar-end ml-auto">
           <li>
+            <a>Home</a>
+          </li>
+          <li>
             <a>About</a>
           </li>
           <li>
-            <a>Projects</a>
+            <a>Works</a>
           </li>
           <li>
             <a>Contact</a>
