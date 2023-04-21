@@ -1,26 +1,54 @@
 import React from "react";
+import { SkillBar } from "./";
 
 export default function SkillsContent() {
+  const skills = [
+    { name: "JavaScript", proficiency: 90 },
+    { name: "TypeScript", proficiency: 60 },
+    { name: "Java", proficiency: 75 },
+    { name: "Python", proficiency: 50 },
+    { name: "React.js", proficiency: 90 },
+    { name: "Vue.js", proficiency: 75 },
+    { name: "Next.js", proficiency: 50 },
+    { name: "Node.js", proficiency: 70 },
+    { name: "HTML", proficiency: 90 },
+    { name: "CSS", proficiency: 85 },
+    { name: "TailwindCSS", proficiency: 80 },
+    { name: "PostgreSQL", proficiency: 70 },
+    { name: "GraphQL", proficiency: 60 },
+    { name: "AWS", proficiency: 70 },
+    { name: "Figma", proficiency: 50 },
+    { name: "Git", proficiency: 80 },
+  ];
+
   return (
     <div className="hero min-h-screen bg-neutral">
       <div className="hero-content flex-col lg:flex-row bg-base-100 p-12 rounded-lg">
         <img
-          src="https://media.istockphoto.com/id/1142192548/vector/man-avatar-profile-male-face-silhouette-or-icon-isolated-on-white-background-vector.jpg?s=612x612&w=0&k=20&c=DUKuRxK9OINHXt3_4m-GxraeoDDlhNuCbA9hp6FotFE="
+          src="assets/TechSkills.png"
           className="max-w-sm rounded-lg shadow-2xl"
         />
         <div className="ml-5">
-          <h1 className="text-3xl font-bold">Skills & Technologies</h1>
-          <p className="py-6">
-            As a recent graduate from Full Stack Academy's coding bootcamp and
-            Virginia Commonwealth University, I'm excited to embark on my
-            journey as a software engineer! I've gained experience in a diverse
-            suite of technologies, and I'm eager to use these skills to create
-            fantastic applications. My love for photography and technology fuels
-            my drive to innovate, and I enjoy blending creativity with function
-            to deliver engaging user experiences. With a solid foundation in
-            full-stack development, I'm looking forward to collaborating,
-            learning, and growing as I begin my career in this industry!
-          </p>
+          <div className="flex space-x-8">
+            <div className="flex flex-col">
+              {skills.slice(0, skills.length / 2).map((skill, index) => (
+                <SkillBar
+                  key={index}
+                  skill={skill.name}
+                  proficiency={skill.proficiency}
+                />
+              ))}
+            </div>
+            <div className="flex flex-col">
+              {skills.slice(skills.length / 2).map((skill, index) => (
+                <SkillBar
+                  key={index}
+                  skill={skill.name}
+                  proficiency={skill.proficiency}
+                />
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>

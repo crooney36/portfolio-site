@@ -2,11 +2,6 @@ import React from "react";
 import ImageModal from "./ImageModal";
 
 const ProjectCard = ({ id, title, imageUrl, deployedUrl, githubUrl, tags }) => {
-  const gradientBorder = {
-    background: "linear-gradient(90deg, #40c9ff 0%, #e81cff 100%)",
-    borderRadius: "0.5rem",
-    padding: "1px",
-  };
   const openModal = () => {
     document.getElementById(`image-modal-${id}`).checked = true;
   };
@@ -16,10 +11,7 @@ const ProjectCard = ({ id, title, imageUrl, deployedUrl, githubUrl, tags }) => {
   };
 
   return (
-    <div
-      className="w-96 bg-base-100 drop-shadow-xl m-5 mt-10"
-      style={gradientBorder}
-    >
+    <div className="w-96 bg-base-100 drop-shadow-xl m-5 mt-10 border-secondary border-2">
       <ImageModal
         id={id}
         imageUrl={imageUrl}

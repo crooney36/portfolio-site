@@ -4,7 +4,6 @@ import { ProjectCard } from "../components";
 export default function Projects() {
   return (
     <div id="projects-container" className="min-h-screen bg-neutral">
-      <h1>Projects</h1>
       <div className="flex flex-wrap justify-center">
         <ProjectCard
           id="project1"
@@ -17,7 +16,7 @@ export default function Projects() {
         <ProjectCard
           id="project2"
           title="Terra Pay - Blockchain Payments"
-          imageUrl="https://via.placeholder.com/150"
+          imageUrl="assets/terrapay.png"
           deployedUrl="https://www.google.com"
           githubUrl="https://github.com/teoti-io"
           tags={["Typescript", "Vue", "AWS", "Front-end"]}
@@ -42,7 +41,7 @@ export default function Projects() {
         <ProjectCard
           id="project4"
           title="Portfolio Website"
-          imageUrl="https://via.placeholder.com/150"
+          imageUrl="assets/PortfolioSite.png"
           deployedUrl="https://www.google.com"
           githubUrl="https://github.com/crooney36/portfolio-site"
           tags={["Javascript", "React", "TailwindCSS", "AWS", "Full-stack"]}

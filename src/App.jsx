@@ -1,15 +1,25 @@
 import React from "react";
 import { Home, About, Projects, Contact } from "./pages";
-import { Gradient } from "./components";
+import { Navbar } from "./components";
+import { Link, Element } from "react-scroll";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
+      <Navbar />
+      <Element name="home">
+        <Home />
+      </Element>
+      <Element name="about">
+        <About />
+      </Element>
+      <Element name="projects">
+        <Projects />
+      </Element>
+      <Element name="contact">
+        <Contact className="bg-neutral" />
+      </Element>
     </div>
   );
 }

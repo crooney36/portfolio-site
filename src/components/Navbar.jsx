@@ -1,10 +1,19 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
+import { Gradient } from "./";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const handleMobileMenuToggle = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
 
   return (
-    <div className="navbar bg-base-100 w-full justify-between">
+    <div className="navbar bg-base-100 w-full justify-between fixed top-0 z-10 drop-shadow-xl">
+      <div className="gradient-bar absolute top-0 left-0 w-full h-1">
+        <Gradient />
+      </div>
+
       <div className="flex items-center justify-between px-4 py-1">
         <a className="btn btn-ghost normal-case text-xl">Charles Rooney</a>
         <button
@@ -31,16 +40,52 @@ export default function Navbar() {
       >
         <ul className="menu menu-horizontal px-1 navbar-end ml-auto">
           <li>
-            <a>Home</a>
+            <Link
+              activeClass="active"
+              to="home"
+              spy={true}
+              smooth={true}
+              duration={500}
+              onClick={handleMobileMenuToggle}
+            >
+              Home
+            </Link>
           </li>
           <li>
-            <a>About</a>
+            <Link
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={500}
+              onClick={handleMobileMenuToggle}
+            >
+              About
+            </Link>
           </li>
           <li>
-            <a>Works</a>
+            <Link
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              duration={500}
+              onClick={handleMobileMenuToggle}
+            >
+              Works
+            </Link>
           </li>
           <li>
-            <a>Contact</a>
+            <Link
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              onClick={handleMobileMenuToggle}
+            >
+              Contact
+            </Link>
           </li>
           <li tabIndex={0}>
             <a>

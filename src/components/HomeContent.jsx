@@ -4,10 +4,7 @@ export default function HomeContent() {
   return (
     <div className="hero min-h-screen bg-neutral">
       <div className="hero-content flex-col lg:flex-row bg-base-100 p-12 rounded-lg">
-        <img
-          src="https://media.istockphoto.com/id/1142192548/vector/man-avatar-profile-male-face-silhouette-or-icon-isolated-on-white-background-vector.jpg?s=612x612&w=0&k=20&c=DUKuRxK9OINHXt3_4m-GxraeoDDlhNuCbA9hp6FotFE="
-          className="max-w-sm rounded-lg shadow-2xl"
-        />
+        <img src="assets/PFP.png" className="max-w-sm rounded-lg shadow-2xl" />
         <div className="ml-5">
           <h1 className="text-3xl font-bold">
             Welcome To My Portfolio Website!
