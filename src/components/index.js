@@ -6,3 +6,5 @@ export { default as SkillsContent } from "./SkillsContent";
 export { default as ImageModal } from "./ImageModal";
 export { default as SkillBar } from "./SkillBar";
 export { default as ContactForm } from "./ContactForm";
+export { default as Carousel } from "./Carousel";
+export { default as Photography } from "./Photography";

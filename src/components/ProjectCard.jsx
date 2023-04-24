@@ -11,25 +11,25 @@ const ProjectCard = ({ id, title, imageUrl, deployedUrl, githubUrl, tags }) => {
   };
 
   return (
-    <div className="w-96 bg-base-100 drop-shadow-xl m-5 mt-10 border-secondary border-2">
+    <div className="w-96 bg-base-100 drop-shadow-xl m-5 mt-10 rounded-xl border-success border-2">
       <ImageModal
         id={id}
         imageUrl={imageUrl}
         title={title}
         closeModal={closeModal}
       />
-      <div className="card bordered bg-base-100 rounded">
-        <figure className="img-cover">
+      <div className="card bordered bg-base-100 rounded-xl">
+        <figure className="px-7 pt-7">
           <img
             src={imageUrl}
             alt={title}
-            className="w-full h-64 object-cover"
+            className="w-full h-56 object-cover rounded-t-xl"
             onClick={openModal}
           />
         </figure>
         <div
           className="card-body flex flex-col justify-between"
-          style={{ height: "250px" }}
+          style={{ height: "200px" }}
         >
           <div className="flex justify-between items-center">
             <h2 className="card-title">{title}</h2>

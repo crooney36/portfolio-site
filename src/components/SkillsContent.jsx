@@ -28,6 +28,17 @@ export default function SkillsContent() {
           src="assets/TechSkills.png"
           className="max-w-sm rounded-lg shadow-2xl"
         />
+        <div>
+          <h1 className="text-4xl text-center font-bold mb-10">
+            Skills & Technologies
+            <p>
+              <span className="text-sm">
+                I'm proficient in a diverse suite of technologies ranging from
+                front-end, back-end, cloud and design.
+              </span>
+            </p>
+          </h1>
+        </div>
         <div className="ml-5">
           <div className="flex space-x-8">
             <div className="flex flex-col">
