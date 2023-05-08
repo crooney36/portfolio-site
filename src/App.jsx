@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Home, About, Projects, Contact } from "./pages";
 import { Navbar } from "./components";
 import { Link, Element } from "react-scroll";

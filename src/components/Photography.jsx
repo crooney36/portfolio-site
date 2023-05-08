@@ -1,20 +1,23 @@
 import React from "react";
+import "lazysizes";
 
-const Photography = ({ photos }) => {
+const Photography = ({ photos, lqipPhotos }) => {
   return (
-    <div className="flex flex-wrap">
-      {photos.map((photo, index) => (
-        <div
-          key={index}
-          className="w-1/4 p-1" // Adjust the padding here as needed
-        >
-          <img
-            src={photo}
-            alt={`Photo ${index + 1}`}
-            className="w-full h-100 object-cover" // Adjust the height here as needed
-          />
-        </div>
-      ))}
+    <div className="mx-auto max-w-screen-xl mb-48">
+      {" "}
+      {/* Add the wrapper div here */}
+      <div className="flex flex-wrap justify-center">
+        {photos.map((photo, index) => (
+          <div key={index} className="w-1/4 p-1">
+            <img
+              src={lqipPhotos[index]}
+              data-src={photo}
+              alt={`Photo ${index + 1}`}
+              className="w-full h-100 object-cover lazyload"
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
