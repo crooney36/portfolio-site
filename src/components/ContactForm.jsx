@@ -60,15 +60,15 @@ const ContactForm = () => {
           </div>
         </div>
       )}
-      <div className="hero-content bg-base-100 p-12 rounded-lg w-full mx-auto mt-10">
-        <div className="flex flex-row items-start w-full space-x-6">
-          <div className="mt-10">
+      <div className="hero-content bg-base-100 p-12 rounded-lg w-full max-w-2xl mx-auto mt-10">
+        <div className="flex flex-col md:flex-row items-start w-full space-y-6 md:space-y-0 md:space-x-6">
+          <div className="mt-10 text-center md:text-left">
             <h2 className="text-3xl font-semibold mb-6">
               Interested in working with me? Reach out!
             </h2>
             <img
               src="assets/ContactImage.webp"
-              className="max-w-sm rounded-lg shadow-2xl"
+              className="w-full rounded-lg shadow-2xl mx-auto md:mx-0"
             />
           </div>
           <form

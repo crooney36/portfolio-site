@@ -6,7 +6,7 @@ const Photography = ({ lqipPhotos }) => {
     <div className="mx-auto max-w-screen-xl mb-48">
       <div className="flex flex-wrap justify-center">
         {lqipPhotos.map((photo, index) => (
-          <div key={index} className="w-1/4 p-1">
+          <div key={index} className="w-full sm:w-1/2 lg:w-1/4 p-1">
             <img
               src={photo}
               alt={`Photo ${index + 1}`}

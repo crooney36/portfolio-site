@@ -22,18 +22,20 @@ export default function SkillsContent() {
   ];
 
   return (
-    <div className="hero min-h-screen bg-neutral">
-      <div className="hero-content grid grid-cols-1 bg-base-100 p-12 rounded-lg">
-        <div className="text-center space-y-4">
-          <h1 className="text-4xl font-bold mb-2">Skills & Technologies</h1>
-        </div>
-        <div className="flex flex-col lg:flex-row items-center justify-center mt-6">
-          <img
-            src="assets/TechSkills.webp"
-            className="max-w-sm rounded-lg shadow-2xl lg:mr-12"
-          />
-          <div className="flex space-x-8">
-            <div className="flex flex-col">
+    <div className="hero min-h-screen bg-neutral flex justify-center items-center">
+      <div className="hero-content bg-base-100 p-4 lg:p-16 rounded-lg mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-start lg:items-center">
+          <div className="mx-auto mb-4 lg:mb-0">
+            {/* <h1 className="text-2xl lg:text-4xl font-bold mb-8 text-center">
+              Skills & Technologies
+            </h1> */}
+            <img
+              src="assets/TechSkills.webp"
+              className="rounded-lg shadow-2xl w-full lg:w-64 object-cover"
+            />
+          </div>
+          <div className="grid grid-cols-2 gap-4">
+            <div>
               {skills.slice(0, skills.length / 2).map((skill, index) => (
                 <SkillBar
                   key={index}
@@ -42,7 +44,7 @@ export default function SkillsContent() {
                 />
               ))}
             </div>
-            <div className="flex flex-col">
+            <div>
               {skills.slice(skills.length / 2).map((skill, index) => (
                 <SkillBar
                   key={index}

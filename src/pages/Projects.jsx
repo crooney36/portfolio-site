@@ -37,9 +37,10 @@ export default function Projects() {
       <div>
         <h1 className="text-4xl text-center font-bold">Web Development</h1>
       </div>
-      <div className="flex justify-center gap-4 mb-4">
+      <div className="flex flex-wrap justify-center gap-4 mb-4">
         <ProjectCard
           id="project1"
+          className="w-full sm:w-auto"
           title="Teoti.io - Landing Page"
           imageUrl="assets/TeotiLandingImage.webp"
           deployedUrl="https://teoti.io/"
@@ -48,6 +49,7 @@ export default function Projects() {
         />
         <ProjectCard
           id="project2"
+          className="w-full sm:w-auto"
           title="Terra Pay - Blockchain Payments"
           imageUrl="assets/terrapay.webp"
           deployedUrl="https://www.google.com"
@@ -56,6 +58,7 @@ export default function Projects() {
         />
         <ProjectCard
           id="project3"
+          className="w-full sm:w-auto"
           title="eBazon - eCommerce Platform"
           imageUrl="assets/Ebazon.webp"
           deployedUrl="https://ebazon.netlify.app/"
@@ -70,9 +73,10 @@ export default function Projects() {
           ]}
         />
       </div>
-      <div className="flex justify-center gap-4">
+      <div className="flex flex-wrap justify-center gap-4 mb-4">
         <ProjectCard
           id="project4"
+          className="w-full sm:w-auto"
           title="Portfolio Website"
           imageUrl="assets/PortfolioSite.webp"
           deployedUrl="https://www.google.com"
@@ -90,8 +94,8 @@ export default function Projects() {
       </div>
 
       <div className="min-h-screen flex flex-col justify-center items-center mt-24 bg-base-100">
-        <div className="w-1/4">
-          <h1 className="text-4xl text-center font-bold my-10">Photography</h1>
+        <div className="w-full sm:w-3/4 lg:w-1/2 text-center">
+          <h1 className="text-4xl font-bold my-10">Photography</h1>
           <p className="mb-10">
             A curated selection of my aerial and ground-based photography
             showcases a glimpse of my artistic capabilities. Feel free to
