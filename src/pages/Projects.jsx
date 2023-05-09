@@ -18,18 +18,18 @@ export default function Projects() {
   ];
 
   const combinedLQIPImages = [
-    "assets/LQIP/DJI_0019.jpg",
-    "assets/LQIP/DJI_0021.jpg",
-    "assets/LQIP/DJI_0024.jpg",
-    "assets/LQIP/Portfolio18.jpg",
+    "assets/LQIP/DJI_0019.webp",
+    "assets/LQIP/DJI_0021.webp",
+    "assets/LQIP/DJI_0024.webp",
+    "assets/LQIP/Portfolio18.webp",
     "assets/LQIP/Portfolio16.webp",
     "assets/LQIP/Portfolio17.webp",
-    "assets/LQIP/Portfolio6.jpg",
-    "assets/LQIP/Portfolio19.jpg",
-    "assets/LQIP/DJI_0051.jpg",
+    "assets/LQIP/Portfolio6.webp",
+    "assets/LQIP/Portfolio19.webp",
+    "assets/LQIP/DJI_0051.webp",
     "assets/LQIP/Portfolio15.webp",
-    "assets/LQIP/Portfolio3.jpg",
-    "assets/LQIP/Portfolio4.jpg",
+    "assets/LQIP/Portfolio3.webp",
+    "assets/LQIP/Portfolio4.webp",
   ];
 
   return (
@@ -41,7 +41,7 @@ export default function Projects() {
         <ProjectCard
           id="project1"
           title="Teoti.io - Landing Page"
-          imageUrl="assets/TeotiLandingImage.png"
+          imageUrl="assets/TeotiLandingImage.webp"
           deployedUrl="https://teoti.io/"
           githubUrl="https://github.com/teoti-io"
           tags={["Typescript", "Vue", "AWS", "Front-end"]}
@@ -49,7 +49,7 @@ export default function Projects() {
         <ProjectCard
           id="project2"
           title="Terra Pay - Blockchain Payments"
-          imageUrl="assets/terrapay.png"
+          imageUrl="assets/terrapay.webp"
           deployedUrl="https://www.google.com"
           githubUrl="https://github.com/teoti-io"
           tags={["Typescript", "Vue", "AWS", "Front-end"]}
@@ -57,7 +57,7 @@ export default function Projects() {
         <ProjectCard
           id="project3"
           title="eBazon - eCommerce Platform"
-          imageUrl="assets/Ebazon.png"
+          imageUrl="assets/Ebazon.webp"
           deployedUrl="https://ebazon.netlify.app/"
           githubUrl="https://github.com/The-Syntax-Savants/eBazon"
           tags={[
@@ -74,7 +74,7 @@ export default function Projects() {
         <ProjectCard
           id="project4"
           title="Portfolio Website"
-          imageUrl="assets/PortfolioSite.png"
+          imageUrl="assets/PortfolioSite.webp"
           deployedUrl="https://www.google.com"
           githubUrl="https://github.com/crooney36/portfolio-site"
           tags={["Javascript", "React", "TailwindCSS", "AWS", "Full-stack"]}
@@ -82,7 +82,7 @@ export default function Projects() {
         {/* <ProjectCard
           id="project5"
           title="Teoti Vendors - Inventory Management"
-          imageUrl="assets/PortfolioSite.png"
+          imageUrl="assets/PortfolioSite.webp"
           deployedUrl="https://www.google.com"
           githubUrl="https://github.com/crooney36/portfolio-site"
           tags={["Typescript", "Node.js", "GraphQL", "AWS", "Back-end"]}

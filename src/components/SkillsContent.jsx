@@ -29,7 +29,7 @@ export default function SkillsContent() {
         </div>
         <div className="flex flex-col lg:flex-row items-center justify-center mt-6">
           <img
-            src="assets/TechSkills.png"
+            src="assets/TechSkills.webp"
             className="max-w-sm rounded-lg shadow-2xl lg:mr-12"
           />
           <div className="flex space-x-8">

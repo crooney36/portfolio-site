@@ -67,7 +67,7 @@ const ContactForm = () => {
               Interested in working with me? Reach out!
             </h2>
             <img
-              src="assets/ContactImage.png"
+              src="assets/ContactImage.webp"
               className="max-w-sm rounded-lg shadow-2xl"
             />
           </div>
