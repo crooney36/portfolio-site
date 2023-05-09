@@ -3,33 +3,33 @@ import { ProjectCard, Carousel, Photography } from "../components";
 
 export default function Projects() {
   const combinedImages = [
-    "assets/AerialImages/DJI_0019.JPG",
-    "assets/AerialImages/DJI_0021.JPG",
-    "assets/AerialImages/DJI_0024.JPG",
+    "assets/Portfolio/DJI_0019.JPG",
+    "assets/Portfolio/DJI_0021.JPG",
+    "assets/Portfolio/DJI_0024.JPG",
     "assets/Portfolio/Portfolio18.jpg",
     "assets/Portfolio/Portfolio16.webp",
     "assets/Portfolio/Portfolio17.webp",
     "assets/Portfolio/Portfolio6.jpg",
     "assets/Portfolio/Portfolio19.jpg",
-    "assets/AerialImages/DJI_0051.JPG",
+    "assets/Portfolio/DJI_0051.JPG",
     "assets/Portfolio/Portfolio15.webp",
     "assets/Portfolio/Portfolio3.jpg",
     "assets/Portfolio/Portfolio4.jpg",
   ];
 
   const combinedLQIPImages = [
-    "assets/lqiq/DJI_0019.JPG",
-    "assets/lqiq/DJI_0021.JPG",
-    "assets/lqiq/DJI_0024.JPG",
-    "assets/lqiq/Portfolio18.jpg",
-    "assets/lqiq/Portfolio16.jpg",
-    "assets/lqiq/Portfolio17.jpg",
-    "assets/lqiq/Portfolio6.jpg",
-    "assets/lqiq/Portfolio19.jpg",
-    "assets/lqiq/DJI_0051.JPG",
-    "assets/lqiq/Portfolio15.jpg",
-    "assets/lqiq/Portfolio3.jpg",
-    "assets/lqiq/Portfolio4.jpg",
+    "assets/LQIP/DJI_0019.jpg",
+    "assets/LQIP/DJI_0021.jpg",
+    "assets/LQIP/DJI_0024.jpg",
+    "assets/LQIP/Portfolio18.jpg",
+    "assets/LQIP/Portfolio16.webp",
+    "assets/LQIP/Portfolio17.webp",
+    "assets/LQIP/Portfolio6.jpg",
+    "assets/LQIP/Portfolio19.jpg",
+    "assets/LQIP/DJI_0051.jpg",
+    "assets/LQIP/Portfolio15.webp",
+    "assets/LQIP/Portfolio3.jpg",
+    "assets/LQIP/Portfolio4.jpg",
   ];
 
   return (

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Home, About, Projects, Contact } from "./pages";
 import { Navbar } from "./components";
-import { Link, Element } from "react-scroll";
+import { Element } from "react-scroll";
 import "./App.css";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <Projects />
       </Element>
       <Element name="contact">
-        <Contact className="bg-neutral" />
+        <Contact />
       </Element>
     </div>
   );
