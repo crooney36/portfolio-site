@@ -11,7 +11,7 @@ const ProjectCard = ({ id, title, imageUrl, deployedUrl, githubUrl, tags }) => {
   };
 
   return (
-    <div className="w-96 bg-base-100 drop-shadow-xl m-5 mt-10 rounded-xl border-success border-2">
+    <div className="w-96 bg-base-100 drop-shadow-xl m-5 mt-20 rounded-xl border-success border-2">
       <ImageModal
         id={id}
         imageUrl={imageUrl}

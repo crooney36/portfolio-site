@@ -37,9 +37,18 @@ export default function Projects() {
       <div>
         <h1 className="text-4xl text-center font-bold">Web Development</h1>
       </div>
-      <div className="flex flex-wrap justify-center gap-4 mb-4">
+      <div className="flex flex-wrap justify-center gap-2 mb-2">
         <ProjectCard
           id="project1"
+          className="w-full sm:w-auto"
+          title="eBazon - eCommerce Platform"
+          imageUrl="assets/Ebazon.webp"
+          deployedUrl="https://ebazon.netlify.app/"
+          githubUrl="https://github.com/The-Syntax-Savants/eBazon"
+          tags={["Javascript", "React", "PostgreSQL", "AWS", "Full-stack"]}
+        />
+        <ProjectCard
+          id="project2"
           className="w-full sm:w-auto"
           title="Teoti.io - Landing Page"
           imageUrl="assets/TeotiLandingImage.webp"
@@ -47,8 +56,10 @@ export default function Projects() {
           githubUrl="https://github.com/teoti-io"
           tags={["Typescript", "Vue", "AWS", "Front-end"]}
         />
+      </div>
+      <div className="flex flex-wrap justify-center gap-2 mb-4">
         <ProjectCard
-          id="project2"
+          id="project3"
           className="w-full sm:w-auto"
           title="Terra Pay - Blockchain Payments"
           imageUrl="assets/terrapay.webp"
@@ -56,24 +67,6 @@ export default function Projects() {
           githubUrl="https://github.com/teoti-io"
           tags={["Typescript", "Vue", "AWS", "Front-end"]}
         />
-        <ProjectCard
-          id="project3"
-          className="w-full sm:w-auto"
-          title="eBazon - eCommerce Platform"
-          imageUrl="assets/Ebazon.webp"
-          deployedUrl="https://ebazon.netlify.app/"
-          githubUrl="https://github.com/The-Syntax-Savants/eBazon"
-          tags={[
-            "Javascript",
-            "React",
-            "PostgreSQL",
-            "Node.js",
-            "AWS",
-            "Full-stack",
-          ]}
-        />
-      </div>
-      <div className="flex flex-wrap justify-center gap-4 mb-4">
         <ProjectCard
           id="project4"
           className="w-full sm:w-auto"

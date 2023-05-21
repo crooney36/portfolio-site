@@ -60,7 +60,7 @@ const ContactForm = () => {
           </div>
         </div>
       )}
-      <div className="hero-content bg-base-100 p-12 rounded-lg w-full max-w-2xl mx-auto mt-10">
+      <div className="hero-content bg-base-100 p-12 rounded-lg w-full max-w-4xl mx-auto mt-10">
         <div className="flex flex-col md:flex-row items-start w-full space-y-6 md:space-y-0 md:space-x-6">
           <div className="mt-10 text-center md:text-left">
             <h2 className="text-3xl font-semibold mb-6">

@@ -13,10 +13,10 @@ export default function Navbar() {
       <div className="gradient-bar absolute top-0 left-0 w-full h-1">
         <Gradient />
       </div>
-      <div className="flex items-center justify-between px-4 py-1">
-        <a className="btn btn-ghost normal-case text-xl">Charles Rooney</a>
+      <div className="flex items-center justify-between w-full px-4 py-1">
+        <a className="btn btn-ghost normal-case text-lg px-0">Charles Rooney</a>
         <button
-          className="block md:hidden"
+          className="block md:hidden ml-auto"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           <svg
