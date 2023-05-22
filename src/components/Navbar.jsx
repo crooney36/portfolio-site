@@ -101,13 +101,17 @@ export default function Navbar() {
             </a>
             <ul className="p-2 bg-base-100 right-0">
               <li>
-                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="/downloads/Charles_Rooney.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Download PDF
                 </a>
               </li>
               <li>
                 <a
-                  href="/resume.docx"
+                  href="/downloads/Charles_Rooney.docx"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
