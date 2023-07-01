@@ -102,7 +102,7 @@ export default function Navbar() {
             <ul className="p-2 bg-base-100 right-0">
               <li>
                 <a
-                  href="/downloads/Charles_Rooney.pdf"
+                  href="downloads/Charles_Rooney.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -111,7 +111,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="/downloads/Charles_Rooney.docx"
+                  href="downloads/Charles_Rooney.docx"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
